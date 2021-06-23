@@ -1,0 +1,32 @@
+{
+ "add_total_row": 0,
+ "creation": "2021-06-16 08:35:12.877433",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Add New Vehicle\"],[\"d_description\",\"Add New Vehicle\"],[\"d_vin\",\"Add New Vehicle\"],[\"d_lot_number\",\"Add New Vehicle\"],[\"customer_company\",\"Add New Vehicle\"],[\"dt_purchase_date\",\"Add New Vehicle\"],[\"d_report_date_pgl\",\"Add New Vehicle\"],[\"dt_payment_date\",\"Add New Vehicle\"],[\"dt_pcd\",\"Add New Vehicle\"],[\"dt_pd\",\"Add New Vehicle\"],[\"no_days_pfp\",\"Add New Vehicle\"],[\"no_days_pfr\",\"Add New Vehicle\"]],\"order_by\":\"`tabAdd New Vehicle`.`modified` desc\",\"add_totals_row\":false,\"page_length\":20,\"column_widths\":{\"name\":120,\"d_description\":120,\"d_vin\":120,\"d_lot_number\":120,\"customer_company\":120,\"dt_purchase_date\":120,\"d_report_date_pgl\":120,\"dt_payment_date\":120,\"dt_pcd\":120,\"dt_pd\":120,\"no_days_pfp\":120,\"no_days_pfr\":120},\"group_by\":null}",
+ "letter_head": "PGL",
+ "modified": "2021-06-16 15:54:56.808862",
+ "modified_by": "Administrator",
+ "module": "Manage Vehicle Shipping",
+ "name": "Vehicle Datelines",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Add New Vehicle",
+ "report_name": "Vehicle Datelines",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "PGL-User"
+  }
+ ]
+}

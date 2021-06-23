@@ -25,6 +25,21 @@ def get_data():
 					"name": "Add New Vehicle",
 					"description": _("Add new vehcile")
 					
+				},
+				{
+					"type": "report",
+					"name": "Two Cost Report",
+					"doctype": "Add New Vehicle"
+				},
+				{
+					"type": "report",
+					"name": "Vehicle Cost Analysis",
+					"doctype": "Add New Vehicle"
+				},
+				{
+					"type": "report",
+					"name": "Vehicle Datelines",
+					"doctype": "Add New Vehicle"
 				}
 			]
 	},
@@ -48,6 +63,12 @@ def get_data():
 					"name": "Vehicle Status",
 					"description": _("Add and View Vehicle load status")
 					
+				},
+				{
+					"type": "doctype",
+					"name": "Shippment Status",
+					"description": _("Add and View Shippment status")
+					
 				}
 
 			]
@@ -60,7 +81,12 @@ def get_data():
 					"name": "View Shippment",
 					"description": _("Add and View Towing Rates")
 					
-				}
+				},
+				{	
+					"type": "report",
+					"name": "Shippment Summary",
+					"doctype": "View Shippment"
+				},
 
 			]
 	},
@@ -94,7 +120,21 @@ def get_data():
 
 			]
 	},
-	
+	{
+			"label": _("Help Desk"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Help Desk",
+					"description": _("Add and View Help Desk"),
+					
+				}
+
+			]
+	},
+
+
+
 
 
 ]

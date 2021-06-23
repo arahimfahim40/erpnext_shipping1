@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0,
+ "creation": "2021-06-16 08:32:11.350366",
+ "disable_prepared_report": 1,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Add New Vehicle\"],[\"d_description\",\"Add New Vehicle\"],[\"d_vin\",\"Add New Vehicle\"],[\"customer_company\",\"Add New Vehicle\"],[\"d_vehicle_aution_price\",\"Add New Vehicle\"],[\"d_tow_amount\",\"Add New Vehicle\"],[\"d_shipping_cost\",\"Add New Vehicle\"],[\"d_dismantal_cost\",\"Add New Vehicle\"],[\"d_storage_pol_origin\",\"Add New Vehicle\"],[\"d_storage_pod\",\"Add New Vehicle\"],[\"d_custom_cost\",\"Add New Vehicle\"],[\"d_other_cost\",\"Add New Vehicle\"],[\"d_total_cost_veh\",\"Add New Vehicle\"],[\"d_sale_cost\",\"Add New Vehicle\"],[\"d_profit_loss\",\"Add New Vehicle\"],[\"d_percent_profit\",\"Add New Vehicle\"]],\"order_by\":\"`tabAdd New Vehicle`.`modified` desc\",\"add_totals_row\":true,\"page_length\":20,\"column_widths\":{\"name\":120,\"d_description\":120,\"d_vin\":120,\"customer_company\":120,\"d_vehicle_aution_price\":120,\"d_tow_amount\":120,\"d_shipping_cost\":120,\"d_dismantal_cost\":120,\"d_storage_pol_origin\":120,\"d_storage_pod\":120,\"d_custom_cost\":120,\"d_other_cost\":120,\"d_total_cost_veh\":120,\"d_sale_cost\":120,\"d_profit_loss\":120,\"d_percent_profit\":120},\"group_by\":null}",
+ "letter_head": "PGL",
+ "modified": "2021-06-17 00:48:08.685901",
+ "modified_by": "Administrator",
+ "module": "Manage Vehicle Shipping",
+ "name": "Vehicle Cost Analysis",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Add New Vehicle",
+ "report_name": "Vehicle Cost Analysis",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "PGL-User"
+  },
+  {
+   "role": "PGL-Admin"
+  }
+ ]
+}

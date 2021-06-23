@@ -15,6 +15,7 @@
   "d_bill_lading_no",
   "d_pgl_ref_no",
   "d_seal_no",
+  "d_hs_code",
   "d_pin_out",
   "d_pin_in",
   "d_container_size",
@@ -30,21 +31,13 @@
   "cb_vs_01",
   "dt_creating_date",
   "d_place_rec",
-  "d_pier",
   "lnk_loading_port",
   "d_loading_terminal",
   "d_port_discharge",
-  "d_release_date",
-  "d_poc_cargo",
   "d_origin_country",
   "d_scac_code",
-  "d_transportation_cost",
-  "d_broker_name",
-  "d_precarriage",
   "d_place_recpt",
-  "vp_img",
   "sm_photolink",
-  "attached_doc",
   "sb_shipping_doc_info",
   "d_shipper_exporter",
   "d_shipper_address",
@@ -57,7 +50,6 @@
   "d_shipper_poc",
   "d_forwarding_agent",
   "d_forwarding_agent_street",
-  "ch_reserve_container",
   "vs_cb_002",
   "d_for_agent_city",
   "d_for_agent_state",
@@ -71,6 +63,7 @@
   "lnk_company_list",
   "invoice_number",
   "amount",
+  "shippment_current_status",
   "vs_sb_003",
   "te_reference",
   "vs_sb_004",
@@ -210,11 +203,6 @@
    "label": "Place of Receipt"
   },
   {
-   "fieldname": "d_pier",
-   "fieldtype": "Data",
-   "label": "PIER"
-  },
-  {
    "fieldname": "lnk_loading_port",
    "fieldtype": "Link",
    "label": "Port of loading ",
@@ -231,16 +219,6 @@
    "label": "Port of Discharge"
   },
   {
-   "fieldname": "d_release_date",
-   "fieldtype": "Date",
-   "label": "Release Date"
-  },
-  {
-   "fieldname": "d_poc_cargo",
-   "fieldtype": "Data",
-   "label": "POC for Cargo Release"
-  },
-  {
    "fieldname": "d_origin_country",
    "fieldtype": "Data",
    "label": "Country of Origin"
@@ -251,41 +229,14 @@
    "label": "SCAC Code"
   },
   {
-   "fieldname": "d_transportation_cost",
-   "fieldtype": "Data",
-   "label": "Transportation Cost"
-  },
-  {
-   "fieldname": "d_broker_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Broker Name"
-  },
-  {
-   "fieldname": "d_precarriage",
-   "fieldtype": "Data",
-   "label": "Pre-Carriage By"
-  },
-  {
    "fieldname": "d_place_recpt",
    "fieldtype": "Data",
    "label": "Place of Receipt by Pre Carrier"
   },
   {
-   "fieldname": "vp_img",
-   "fieldtype": "Attach Image",
-   "label": "Choose Photo"
-  },
-  {
    "fieldname": "sm_photolink",
    "fieldtype": "Small Text",
    "label": "Photo Link"
-  },
-  {
-   "fieldname": "attached_doc",
-   "fieldtype": "Attach",
-   "label": "Add Validated/Signed Documents"
   },
   {
    "collapsible": 1,
@@ -361,12 +312,6 @@
    "fieldname": "d_forwarding_agent_street",
    "fieldtype": "Data",
    "label": "Forwarding Agent Street Address"
-  },
-  {
-   "default": "0",
-   "fieldname": "ch_reserve_container",
-   "fieldtype": "Check",
-   "label": " Reserve Container"
   },
   {
    "fieldname": "vs_cb_002",
@@ -457,10 +402,24 @@
    "fieldname": "te_basic_instruction",
    "fieldtype": "Text Editor",
    "label": "Basic Instruction"
+  },
+  {
+   "fieldname": "d_hs_code",
+   "fieldtype": "Data",
+   "label": "HS_Code"
+  },
+  {
+   "default": "At Loading Container",
+   "fieldname": "shippment_current_status",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Shippment Current Status",
+   "options": "Shippment Status"
   }
  ],
  "hide_toolbar": 1,
- "modified": "2021-04-19 20:27:05.826017",
+ "modified": "2021-06-13 09:52:10.755217",
  "modified_by": "Administrator",
  "module": "Manage Vehicle Shipping",
  "name": "View Shippment",
