@@ -15,7 +15,7 @@ app_license = "MIT"
 #Fitures for exporting all the fields of different doctype
 fixtures = ["Role",
 
-	{"dt": "Client Script",
+	{"dt": "Custom Script",
 		"filters": [
 	[
 		"name","in", ["View Shippment-Client","Add New Vehicle-Client"]
